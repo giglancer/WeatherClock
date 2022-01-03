@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/currentWeather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="104dp"
+        android:paddingTop="32dp"
+        android:text="晴れ"
+        android:textColor="#F8F3F3"
+        android:textSize="54sp" />
+
+    <TextView
+        android:id="@+id/currentDegree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="500dp"
+        android:paddingTop="12dp"
+        android:text="20℃"
+        android:textColor="#F4EFEF"
+        android:textSize="54sp" />
+
+    <TextView
+        android:id="@+id/maxDegree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="480dp"
+        android:paddingTop="82dp"
+        android:text="25℃"
+        android:textColor="#FF9800"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/dividedDegree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="560dp"
+        android:paddingTop="82dp"
+        android:text="/"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/minDegree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="590dp"
+        android:paddingTop="82dp"
+        android:text="10℃"
+        android:textColor="#2196F3"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/divided"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="130dp"
+        android:background="#FFF" />
+
+    <TextClock
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="150dp"
+        android:format12Hour="yyyy/MM/dd"
+        android:format24Hour="yyyy/MM/dd"
+        android:textColor="#FFFFFF"
+        android:textSize="32sp"
+        android:timeZone="Asia/Tokyo" />
+
+    <TextClock
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="180dp"
+        android:format12Hour="hh:mm:ss"
+        android:format24Hour="HH:mm:ss"
+        android:textColor="#FFFFFF"
+        android:textSize="140sp"
+        android:timeZone="GMT+900" />
+
+</FrameLayout>

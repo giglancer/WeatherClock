@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">weatherClock</string>
+    <string name="cancelledPermission">" Please enable your current location to use the app"</string>
+    <string name="failedGetPosition">" Failed to get the current position"</string>
+    <string name="thunderstorm">Thunderstorm</string>
+    <string name="rain">Rain</string>
+    <string name="snow">Snow</string>
+    <string name="clear">Clear Sky</string>
+    <string name="clouds">Clouds</string>
+    <string name="mist">Mist</string>
+    <string name="smoke">Smoke</string>
+    <string name="haze">Haze</string>
+    <string name="dust">Dust</string>
+    <string name="fog">Fog</string>
+    <string name="sand">Sand</string>
+    <string name="dust_whirls">Dust Whirls</string>
+    <string name="volcanic_ash">Volcanic Ash</string>
+    <string name="squalls">Squalls</string>
+    <string name="tornado">Tornado</string>
+    <string name="unknown">unknown</string>
+</resources>

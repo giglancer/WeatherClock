@@ -1,0 +1,21 @@
+<resources>
+    <string name="cancelledPermission">アプリを使用するには現在位置を有効にして下さい</string>
+    <string name="failedGetPosition">現在位置の取得に失敗しました</string>
+    <string name="thunderstorm">雷</string>
+    <string name="rain">雨</string>
+    <string name="snow">雪</string>
+    <string name="clear">快晴</string>
+    <string name="clouds">曇り</string>
+    <string name="mist">ミスト</string>
+    <string name="smoke">スモーク</string>
+    <string name="haze">煙霧</string>
+    <string name="dust">ダスト</string>
+    <string name="fog">霧</string>
+    <string name="sand">砂</string>
+    <string name="dust_whirls">塵旋風</string>
+    <string name="volcanic_ash">火山灰</string>
+    <string name="squalls">スコール</string>
+    <string name="tornado">竜巻</string>
+    <string name="unknown">unknown</string>
+    <string name="app_name">デジタル置き時計</string>
+</resources>
